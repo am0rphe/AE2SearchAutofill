@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.am0rphe.ae2searchautofill.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [],
+  "client": [
+    "MEStorageScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
